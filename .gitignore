@@ -1,2 +1,47 @@
+# Directories to ignore
 /temp
 /__pycache__
+*/__pycache__/
+*/*/__pycache__/
+
+# Environment files
+.env
+**/.env
+.env.local
+.env.development
+.env.production
+
+# Python
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Database
+*.sqlite3
+*.db
+
+# Session files
+kite_session.json
